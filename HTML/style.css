@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    width: 100%;
+}
+.img-info{
+    width: 100%;
+}
+.img-info h2 {
+    padding: 20px 50px 10px;
+    font-size: 90px;
+    color: #1229d8;
+    line-height: 100px;
+}
+.img-info h3{
+    padding: 30px 30px 20px;
+    font-size: 50px;
+
+}
+.img-info p{
+        padding: 30px 30px 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 40px;
+        font-size: 30px;
+    }
+html, body{
+    height: 100%;
+    background-size:contain;
+    background-color: rgb(61, 180, 232);
+}
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 110px;
+    position: relative;
+    font-size: 20px;
+
+}
+.navbar ul li a{ 
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0672ff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    .workspage{
+        width: 100%;
+    }
+    .workspage h2 {
+        padding: 20px 50px 10px;
+        font-size: 90px;
+        color: #1229d8;
+        line-height: 100px;
+    }
+    .workspage h3{
+        padding: 30px 30px 20px;
+        font-size: 30px;
+    
+    }
+    .workspage p{
+            padding: 30px 30px 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 40px;
+            font-size: 30px;
+        }
+        .leadership h2{
+            padding: 20px 50px 10px;
+            font-size: 90px;
+            color: #1229d8;
+            line-height: 100px;
+        }
+        .president {
+            padding: 30px 30px 20px;
+            font-size: 30px;
+        }
+        .co-president {
+            padding: 30px 30px 20px;
+            font-size: 30px;
+        
+        }
+        .head {
+            padding: 30px 30px 20px;
+            font-size: 30px;
+        
+        }
+        .social h2 {
+            padding: 20px 50px 10px;
+            font-size: 90px;
+            color: #1229d8;
+            line-height: 100px;
+        }
+        .instagram {
+            padding: 30px 30px 20px;
+            font-size: 30px;
+        }
