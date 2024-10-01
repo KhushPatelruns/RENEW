@@ -9,20 +9,41 @@
     width: 100%;
 }
 .img-info h2 {
-    padding: 20px 50px 10px;
-    font-size: 90px;
-    color: #1229d8;
+    padding: 20px 40px 0px;
+    width: 100%;
+    font-size: 80px;
     line-height: 100px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #1bb7e2;
+    color: white;
+
+}
+.img-info h2:hover {
+    background: #2395bb;   
+    transition: all 0.5s ease-in-out; 
 }
 .img-info h3{
     padding: 30px 30px 20px;
     font-size: 50px;
+    color: #fdfdff;
 
 }
+.img-info h3:hover {
+    background: #2395bb;   
+    transition: all 0.5s ease-in-out;
+}
 .img-info p{
-        padding: 30px 30px 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 50px 50px 50px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
         line-height: 40px;
+        background-image: linear-gradient(to top, #85d3cb 0%, #fdfdff 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
         font-size: 30px;
     }
 html, body{
@@ -32,30 +53,40 @@ html, body{
 }
 .navbar {
     width: 100%;
+    background: #a7dbdced;
     margin: auto;
     padding: 15px 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: relative;
 }
+.navbar__toggle {
+    display: flex;
+
+}
+
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 110px;
-    position: relative;
-    font-size: 20px;
+    margin: 0 85px;
+    position: center;
+    font-size: 30px;
 
 }
 .navbar ul li a{ 
     text-decoration: none;
-    color: white;
+    display: flex;
+    cursor: pointer;
     text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    color:#fdfdff;
+    transition: all 0.3s ease;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #0672ff;
+    background: #27c5d6;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -70,8 +101,12 @@ html, body{
     }
     .workspage h2 {
         padding: 20px 50px 10px;
-        font-size: 90px;
-        color: #1229d8;
+        font-size: 80px;
+        background-image: linear-gradient(to top, #1408ff 0%, #0eb9a5 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
         line-height: 100px;
     }
     .workspage h3{
@@ -88,7 +123,11 @@ html, body{
         .leadership h2{
             padding: 20px 50px 10px;
             font-size: 90px;
-            color: #1229d8;
+            background-image: linear-gradient(to top, #1408ff 0%, #0eb9a5 100%);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
             line-height: 100px;
         }
         .president {
@@ -108,7 +147,11 @@ html, body{
         .social h2 {
             padding: 20px 50px 10px;
             font-size: 90px;
-            color: #1229d8;
+            background-image: linear-gradient(to top, #1408ff 0%, #0eb9a5 100%);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
             line-height: 100px;
         }
         .instagram {
