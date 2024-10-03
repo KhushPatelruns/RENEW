@@ -5,11 +5,16 @@
 .banner {
     width: 100%;
 }
-.img-info{
+.lead {
     width: 100%;
 }
+.img-info{
+   max-width: 100%;
+   min-width: 40%;
+}
 .img-info h2 {
-    padding: 20px 40px 0px;
+    padding: 20px 50px 50px;
+    align-self: auto;
     width: 100%;
     font-size: 70px;
     line-height: 100px;
@@ -39,13 +44,24 @@
         padding: 50px 50px 50px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
         line-height: 40px;
-        background-image: linear-gradient(to top, #85d3cb 0%, #fdfdff 100%);
+        background-image: linear-gradient(to top, #25fde7 0%, #fdfdff 100%);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
         font-size: 30px;
     }
+.worksinfo {
+    padding: 30px 30px 30px;
+    font-family: system-ui, -apple-system;
+    line-height: 50px;
+    background-image: linear-gradient(to top, #44c4dd 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 50px;
+}
 html, body{
     height: 100%;
     background-size:contain;
@@ -63,7 +79,7 @@ html, body{
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 75px;
+    margin: 0 70px;
     position: center;
     font-size: 25px;
 
