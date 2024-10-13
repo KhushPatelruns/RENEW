@@ -4,6 +4,7 @@
 }
 .banner {
     width: 100%;
+    background-color:#a7dbdced;
 }
 .lead {
     width: 100%;
@@ -13,11 +14,25 @@
    min-width: 40%;
 }
 .img-info h2 {
-    padding: 20px 50px 50px;
+    padding: 20px 50px 10px;
     align-self: auto;
     width: 100%;
     font-size: 70px;
     line-height: 100px;
+    height: 70%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #1bb7e2;
+    color: white;
+
+}
+.img-infolearn h2 {
+    padding: 20px 50px 10px;
+    position: center;
+    width: 100%;
+    font-size: 70px;
+    line-height: 80px;
     height: 100%;
     border: none;
     outline: none;
@@ -43,7 +58,7 @@
 .img-info p{
         padding: 50px 50px 50px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-        line-height: 40px;
+        line-height: 35px;
         background-image: linear-gradient(to top, #25fde7 0%, #fdfdff 100%);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -52,7 +67,7 @@
         font-size: 30px;
     }
 .worksinfo {
-    padding: 30px 30px 30px;
+    padding: 50px 50px 50px;
     font-family: system-ui, -apple-system;
     line-height: 50px;
     background-image: linear-gradient(to top, #44c4dd 0%, #ffffff 100%);
@@ -64,15 +79,17 @@
 }
 html, body{
     height: 100%;
-    background-size:contain;
+    width: 100%;
+    background-size: 50%;
     background-color: rgb(61, 180, 232);
 }
 .navbar {
     width: 100%;
     background: #a7dbdced;
     margin: auto;
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
+    position: center;
     justify-content: relative;
 }
 
@@ -80,7 +97,6 @@ html, body{
     list-style: none;
     display: inline-block;
     margin: 0 70px;
-    position: center;
     font-size: 25px;
 
 }
@@ -142,19 +158,8 @@ html, body{
             -moz-text-fill-color: transparent;
             line-height: 100px;
         }
-        .president {
-            padding: 30px 30px 20px;
-            font-size: 30px;
-        }
-        .co-president {
-            padding: 30px 30px 20px;
-            font-size: 30px;
-        
-        }
         .head {
             padding: 30px 30px 20px;
-            font-size: 30px;
-        
         }
         .social h2 {
             padding: 20px 50px 10px;
@@ -170,3 +175,92 @@ html, body{
             padding: 30px 30px 20px;
             font-size: 30px;
         }
+        @media (max-width: 450px) {
+            .navbar {
+                height: 3rem;
+                width: 28rem;
+            }
+            .navbar ul li {
+                width: 1rem;
+                font-size: 15px;
+                margin: 0 50px;
+                position:relative;
+            }
+            .banner {
+                height: 150px;
+                width: 100%;
+            }
+            .img-info p{
+                font-size: 20px;
+                padding: 10px 40px 0;
+            }
+            .img-info h2{
+                font-size: 40px;
+                padding: 0 15px 10px;
+            }
+            .img-infolearn h2{
+                font-size: 33px;
+                padding: 0 15px 10px;
+            }
+            .worksinfo{
+                font-size: 30px;
+                padding: 10px 50px 20px;
+            }
+            .img-info h3{
+                font-size: 40px;
+        
+            }
+    
+
+    @media (max-width: 415px) {
+        .img-infolearn h2{
+            font-size: 30px;
+            padding: 0 15px 10px;
+    }
+    .navbar {
+        height: 3rem;
+        width: 26rem;
+    }
+    .navbar ul li {
+        width: 1rem;
+        font-size: 15px;
+        margin: 0 50px;
+        position:relative;
+     }
+     .banner {
+            height: 150px;
+            width: 100%;
+    }
+}
+    @media (max-width:391px) {
+        .navbar ul li {
+            width: 1rem;
+            font-size: 15px;
+            margin: 0 50px;
+            position:relative;
+         }
+        .img-info h3{
+            font-size: 40px;
+            padding: 30px 15px 15px
+    }
+    .banner {
+        height: 150px;
+        width: 100%;
+    }
+}
+@media (max-width:376px) {
+    .banner {
+    height: 150px;
+    width: 105%;
+}
+.navbar ul li {
+    width: 0.7rem;
+    font-size: 15px;
+    margin: 0 50px;
+    position:relative;
+ }
+.img-info h3{
+    font-size: 40px;
+    padding: 30px 15px 15px
+}
+}}
