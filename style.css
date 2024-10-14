@@ -8,29 +8,39 @@
 }
 .lead {
     width: 100%;
+
 }
 .img-info{
    max-width: 100%;
    min-width: 40%;
+   display: inline-block;
+
 }
 .img-info h2 {
-    padding: 20px 50px 10px;
+    padding: 20px 50px 0;
     align-self: auto;
-    width: 100%;
+    width: 92%;
     font-size: 70px;
     line-height: 100px;
-    height: 70%;
-    border: none;
+    height: 10%;
     outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s,
+    cursor .6s step-end infinite alternate;
     border-radius: 4px;
-    background: #1bb7e2;
+    background: #04b7e3;
     color: white;
+
+}
+@keyframes typing {
+    from { width: 0;}
 
 }
 .img-infolearn h2 {
     padding: 20px 50px 10px;
     position: center;
-    width: 100%;
+    width: 92%;
     font-size: 70px;
     line-height: 80px;
     height: 100%;
@@ -39,7 +49,10 @@
     border-radius: 4px;
     background: #1bb7e2;
     color: white;
-
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s,
+    cursor .6s step-end infinite alternate;
 }
 .img-info h2:hover {
     background: #2395bb;   
@@ -178,7 +191,7 @@ html, body{
         @media (max-width: 450px) {
             .navbar {
                 height: 3rem;
-                width: 28rem;
+                width: 27rem;
             }
             .navbar ul li {
                 width: 1rem;
@@ -219,7 +232,7 @@ html, body{
     }
     .navbar {
         height: 3rem;
-        width: 26rem;
+        width: 25.8rem;
     }
     .navbar ul li {
         width: 1rem;
@@ -239,6 +252,10 @@ html, body{
             margin: 0 50px;
             position:relative;
          }
+         .navbar {
+            width: 24.3rem;
+    
+         }
         .img-info h3{
             font-size: 40px;
             padding: 30px 15px 15px
@@ -251,13 +268,16 @@ html, body{
 @media (max-width:376px) {
     .banner {
     height: 150px;
-    width: 105%;
+    width: 100%;
 }
 .navbar ul li {
     width: 0.7rem;
     font-size: 15px;
     margin: 0 50px;
     position:relative;
+ }
+ .navbar {
+    width: 23.5rem;
  }
 .img-info h3{
     font-size: 40px;
