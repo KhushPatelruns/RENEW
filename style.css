@@ -7,11 +7,13 @@
     background-color:#a7dbdced;
 }
 .lead {
-    width: 100%;
+   width: 90%; 
+   padding: 5%;
 
 }
 .renewb {
     width: 100%;
+
 }
 .img-info{
    max-width: 100%;
@@ -20,9 +22,9 @@
 
 }
 .img-info h2 {
-    padding: 20px 50px 0;
+    padding: 5% 5% 0;
     align-self: auto;
-    width: 92%;
+    width: 88%;
     font-size: 70px;
     line-height: 100px;
     height: 10%;
@@ -41,13 +43,12 @@
 
 }
 .img-infolearn h2 {
-    padding: 20px 50px 10px;
-    position: center;
-    width: 92%;
+    padding: 5% 5% 0;
+    align-self: auto;
+    width: 90%;
     font-size: 70px;
     line-height: 80px;
-    height: 100%;
-    border: none;
+    height: 10%;
     outline: none;
     border-radius: 4px;
     background: #1bb7e2;
@@ -91,13 +92,14 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-size: 50px;
+    font-size: 30px;
 }
 html, body{
     height: 100%;
     width: 100%;
-    background-size: 50%;
+    background-size: 100%;
     background-color: rgb(61, 180, 232);
+    
 }
 .navbar {
     width: 100%;
@@ -211,7 +213,7 @@ html, body{
                 padding: 10px 40px 0;
             }
             .img-info h2{
-                font-size: 40px;
+                font-size: 50px;
                 padding: 0 15px 10px;
             }
             .img-infolearn h2{
